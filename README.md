@@ -17,7 +17,7 @@ route.js
   // snip...
 
   model() {
-    return this.store.peekAll('map-layer');
+    return this.store.findAll('map-layer');
   },
 
   afterModel({ models }, { queryParams }) {
