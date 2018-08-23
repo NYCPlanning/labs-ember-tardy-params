@@ -1,7 +1,7 @@
 import HistoryLocation from '@ember/routing/history-location';
 import EmberObject, { computed, getProperties } from '@ember/object';
 import { alias } from '@ember/object/computed';
-import toParamString from 'npm:jquery-param';
+import toParamString from 'jquery-param';
 
 const parseParams = function(str) {
   if (!str) return {};
