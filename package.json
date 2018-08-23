@@ -1,6 +1,6 @@
 {
   "name": "ember-tardy-params",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
     "ember-addon"
@@ -20,9 +20,9 @@
   },
   "dependencies": {
     "@ember-decorators/babel-transforms": "2.0.2",
+    "ember-auto-import": "1.2.12",
     "ember-cli-babel": "^6.6.0",
-    "jquery-param": "1.0.1",
-    "ember-auto-import": "1.2.12"
+    "jquery-param": "1.0.1"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
